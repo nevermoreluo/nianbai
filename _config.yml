@@ -5,7 +5,8 @@ keywords: null
 author: Nevermore
 language: en
 timezone: ''
-url: https://nevermoreluo.github.io
+url: https://nevermoreluo.github.io/nianbai/
+root: /nianbai/
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
 pretty_urls:
