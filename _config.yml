@@ -69,26 +69,24 @@ widgets:
     position: left
   - type: recent_posts
     position: right
-
 feed:
   enable: true
-  type: 
+  type:
     - atom
     - rss2
-  path: 
+  path:
     - atom.xml
     - rss2.xml
   limit: 20
-  hub:
-  content:
+  hub: null
+  content: null
   content_limit: 140
   content_limit_delim: ' '
-  order_by: -date
+  order_by: '-date'
   autodiscovery: true
-  template:
-
+  template: null
 sitemap:
-  path: 
+  path:
     - sitemap.xml
     - sitemap.txt
   rel: false
